@@ -15,6 +15,10 @@
 		7BB39849230C1C3C0011ED18 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7BB39847230C1C3C0011ED18 /* LaunchScreen.storyboard */; };
 		7BB39854230C1C3C0011ED18 /* StoreReadJSONTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BB39853230C1C3C0011ED18 /* StoreReadJSONTests.swift */; };
 		7BB3985F230C1C3D0011ED18 /* StoreReadJSONUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BB3985E230C1C3D0011ED18 /* StoreReadJSONUITests.swift */; };
+		7BB3986D230C1C4C0011ED18 /* Snack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BB3986C230C1C4C0011ED18 /* Snack.swift */; };
+		7BB3986F230C20B40011ED18 /* Enums.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BB3986E230C20B40011ED18 /* Enums.swift */; };
+		7BB39871230C20CC0011ED18 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BB39870230C20CC0011ED18 /* Extensions.swift */; };
+		7BB39873230C26C70011ED18 /* Mockdata.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BB39872230C26C70011ED18 /* Mockdata.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +53,10 @@
 		7BB3985A230C1C3D0011ED18 /* StoreReadJSONUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StoreReadJSONUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7BB3985E230C1C3D0011ED18 /* StoreReadJSONUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreReadJSONUITests.swift; sourceTree = "<group>"; };
 		7BB39860230C1C3D0011ED18 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7BB3986C230C1C4C0011ED18 /* Snack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Snack.swift; sourceTree = "<group>"; };
+		7BB3986E230C20B40011ED18 /* Enums.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Enums.swift; sourceTree = "<group>"; };
+		7BB39870230C20CC0011ED18 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		7BB39872230C26C70011ED18 /* Mockdata.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mockdata.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +108,10 @@
 			isa = PBXGroup;
 			children = (
 				7BB3983B230C1C3C0011ED18 /* AppDelegate.swift */,
+				7BB3986C230C1C4C0011ED18 /* Snack.swift */,
+				7BB3986E230C20B40011ED18 /* Enums.swift */,
+				7BB39870230C20CC0011ED18 /* Extensions.swift */,
+				7BB39872230C26C70011ED18 /* Mockdata.swift */,
 				7BB3983D230C1C3C0011ED18 /* ViewController.swift */,
 				7BB3983F230C1C3C0011ED18 /* Main.storyboard */,
 				7BB39845230C1C3C0011ED18 /* Assets.xcassets */,
@@ -260,8 +272,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				7BB3983E230C1C3C0011ED18 /* ViewController.swift in Sources */,
+				7BB39871230C20CC0011ED18 /* Extensions.swift in Sources */,
+				7BB3986D230C1C4C0011ED18 /* Snack.swift in Sources */,
+				7BB3986F230C20B40011ED18 /* Enums.swift in Sources */,
 				7BB39844230C1C3C0011ED18 /* StoreReadJSON.xcdatamodeld in Sources */,
 				7BB3983C230C1C3C0011ED18 /* AppDelegate.swift in Sources */,
+				7BB39873230C26C70011ED18 /* Mockdata.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -12,7 +12,16 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+
+//        if let data = Mockdata.snacks().encode()?.data {
+//            data.storeAs("snacks", type: .json)
+//        }
+        if let data = Data.fetch("snacks", type: .json) {
+            if let snacks: [Snack] = data.decode() {
+                print(snacks)
+            }
+        }
+
     }
 
 
